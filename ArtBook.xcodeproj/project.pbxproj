@@ -15,6 +15,7 @@
 		DD7333EF29007155002095D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7333EE29007155002095D3 /* Assets.xcassets */; };
 		DD7333F229007155002095D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7333F029007155002095D3 /* LaunchScreen.storyboard */; };
 		DD7333FA29007453002095D3 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7333F929007453002095D3 /* DetailsVC.swift */; };
+		DDD8C3A329042CCC0025DE2F /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD8C3A229042CCC0025DE2F /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DD7333F129007155002095D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7333F329007155002095D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD7333F929007453002095D3 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		DDD8C3A229042CCC0025DE2F /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		DD7333E129007154002095D3 /* ArtBook */ = {
 			isa = PBXGroup;
 			children = (
+				DDD8C3A229042CCC0025DE2F /* select.png */,
 				DD7333E229007154002095D3 /* AppDelegate.swift */,
 				DD7333E429007154002095D3 /* SceneDelegate.swift */,
 				DD7333E629007154002095D3 /* ViewController.swift */,
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7333F229007155002095D3 /* LaunchScreen.storyboard in Resources */,
+				DDD8C3A329042CCC0025DE2F /* select.png in Resources */,
 				DD7333EF29007155002095D3 /* Assets.xcassets in Resources */,
 				DD7333EA29007154002095D3 /* Main.storyboard in Resources */,
 			);

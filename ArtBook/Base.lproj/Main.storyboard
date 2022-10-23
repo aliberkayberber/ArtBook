@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RDb-j4-uA4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select.png" translatesAutoresizingMaskIntoConstraints="NO" id="RDb-j4-uA4">
                                 <rect key="frame" x="75" y="112" width="240" height="316"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="IUL-M2-6hW"/>
@@ -107,9 +107,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="mLT-5n-9DM"/>
                     <connections>
-                        <outlet property="UIImageView" destination="RDb-j4-uA4" id="m2M-b1-r99"/>
                         <outlet property="artistText" destination="MrG-vm-Lbh" id="5VE-AF-77T"/>
+                        <outlet property="imageView" destination="RDb-j4-uA4" id="xHI-j0-SwF"/>
                         <outlet property="nameText" destination="Gfc-NT-7FS" id="Jeg-Gi-fsf"/>
+                        <outlet property="saveButton" destination="Tsp-X2-uhX" id="6Ew-1S-Ee2"/>
                         <outlet property="yearText" destination="Rvl-BX-eIv" id="Jgw-cm-Isc"/>
                     </connections>
                 </viewController>
@@ -137,6 +138,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="select.png" width="264" height="300"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
